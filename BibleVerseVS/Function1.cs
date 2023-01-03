@@ -16,7 +16,7 @@ namespace BibleVerseVS
 {
     public class BibleVerse
     {
-        public string DmtDate { get; set; } = Guid.NewGuid().ToString("n");
+        public DateTime DmtDate { get; set; }
         public string txtVerse { get; set; }
         public string txtRef { get; set; }
         public string txtTrans { get; set; }
@@ -24,7 +24,7 @@ namespace BibleVerseVS
 
     public class UpdateBibleVerse
     {
-        public string dmtDate { get; set; }
+        public DateTime dmtDate { get; set; }
         public string txtVerse { get; set; }
         public string txtRef { get; set; }
         public string txtTrans { get; set; }

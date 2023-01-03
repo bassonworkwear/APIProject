@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "SqlConnectionString": "Data Source=basson.database.windows.net;Initial Catalog=BassonApp;User ID=Envisage;Password=Basson321;Pooling=False"
+  }
+}
